@@ -1,0 +1,17 @@
+.dif{
+	display:inline-block;
+	border-radius:3px;
+	margin:2px;
+	padding:2px;
+	background-image:linear-gradient(to left,#6a359c,#FF4500);
+	transition:0.7s;
+}
+.dif:hover {
+	transform: scale(1.08);
+}	
+p {
+	text-align: center;
+}
+h2 {
+	text-align: center;
+}

@@ -1,0 +1,31 @@
+import React,{ Component } from 'react';
+//import Card from './Card';
+import { Data } from './Data';
+import Cardlist from './Cardlist';
+import Searchbox from './Searchbox';
+
+class App extends Component{
+	constructor(){
+		super();
+		this.state={
+			Data:Data,
+			searchField:''
+		}
+	}
+	onSearchChange=(event)=>{
+		this.setState({searchField:event.target.value});
+		const filterRobo=this.state.Data.filter((dat)=>{return dat.name.toLowerCase().includes(this.state.searchField.toLowerCase())})
+		console.log(event.target.value);
+	}
+	render()
+	{
+		return(
+			<React.Fragment>
+				<h1>Robofriends</h1>
+				<Searchbox searchChange={this.onSearchChange}/>
+				<Cardlist data={this.state.Data} />
+			</React.Fragment>
+		);
+	}
+}
+export default App;
