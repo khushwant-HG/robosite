@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/robosite/static/css/main.6ea1239f.chunk.css",
+    "main.js": "/robosite/static/js/main.55e7e483.chunk.js",
+    "main.js.map": "/robosite/static/js/main.55e7e483.chunk.js.map",
+    "runtime-main.js": "/robosite/static/js/runtime-main.11a7b12f.js",
+    "runtime-main.js.map": "/robosite/static/js/runtime-main.11a7b12f.js.map",
+    "static/js/2.011243ca.chunk.js": "/robosite/static/js/2.011243ca.chunk.js",
+    "static/js/2.011243ca.chunk.js.map": "/robosite/static/js/2.011243ca.chunk.js.map",
+    "index.html": "/robosite/index.html",
+    "precache-manifest.29c9c148fd42d60712d5af2d7343f679.js": "/robosite/precache-manifest.29c9c148fd42d60712d5af2d7343f679.js",
+    "service-worker.js": "/robosite/service-worker.js",
+    "static/css/main.6ea1239f.chunk.css.map": "/robosite/static/css/main.6ea1239f.chunk.css.map",
+    "static/js/2.011243ca.chunk.js.LICENSE.txt": "/robosite/static/js/2.011243ca.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.11a7b12f.js",
+    "static/js/2.011243ca.chunk.js",
+    "static/css/main.6ea1239f.chunk.css",
+    "static/js/main.55e7e483.chunk.js"
+  ]
+}
